@@ -4,7 +4,6 @@
 
 [**Watch 10-minute project demonstration**](YOUR_VIDEO_LINK_HERE)
 
-> Replace this link after recording your video (YouTube unlisted or Google Drive)
 
 \---
 
@@ -151,5 +150,4 @@ immigrant-tax-rl-agent/
 * No PII collected: visa type and country only, never name/SSN/income
 * Production reward must come from expert validation, not user ratings alone
 
-\---
 
