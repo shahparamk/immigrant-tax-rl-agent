@@ -4,9 +4,6 @@
 
 [**Watch 10-minute project demonstration**](YOUR_VIDEO_LINK_HERE)
 
-> Replace this link after recording your video (YouTube unlisted or Google Drive)
-
-\---
 
 ## What This Project Is
 
@@ -14,7 +11,6 @@ Over **1.1 million international students** in the US must file taxes under a co
 
 This project builds an **RL-enhanced AI tax assistant** specifically for international students that gets measurably smarter over every session through reinforcement learning.
 
-\---
 
 ## Results
 
@@ -25,7 +21,6 @@ This project builds an **RL-enhanced AI tax assistant** specifically for interna
 |Convergence Episode|—|**1,877**|Detected|
 |Total Interactions|—|**16,000**|—|
 
-\---
 
 ## 4 Reinforcement Learning Components
 
@@ -58,7 +53,6 @@ Learns which tools to invoke before retrieval for each question type.
 
 * Epsilon-greedy exploration (20% explore, 80% exploit)
 
-\---
 
 ## 3 Custom Tools
 
@@ -68,7 +62,6 @@ Learns which tools to invoke before retrieval for each question type.
 |**Treaty Lookup**|Database|US tax treaties for India, China, South Korea, Germany, Mexico|
 |**RAGAS Evaluator**|Analytical|Claim-level faithfulness scoring → RL reward signal|
 
-\---
 
 ## Installation
 
@@ -78,7 +71,6 @@ cd immigrant-tax-rl-agent
 pip install -r requirements.txt
 ```
 
-\---
 
 ## Usage
 
@@ -96,7 +88,6 @@ Takes \~3-4 minutes. Produces PDF report, 5 charts, all training data.
 python src/demo.py
 ```
 
-\---
 
 ## Project Structure
 
@@ -130,7 +121,6 @@ immigrant-tax-rl-agent/
     └── policy\_state.json               # Trained policy weights
 ```
 
-\---
 
 ## Comparison vs Existing Solutions
 
@@ -142,7 +132,6 @@ immigrant-tax-rl-agent/
 |Raw GPT-4o|Partial|No|Hallucinated|No|$20/mo|
 |**This system**|**Designed for**|**Yes**|**5 countries**|**YES**|**\~$0.01/session**|
 
-\---
 
 ## Ethical Considerations
 
@@ -151,5 +140,4 @@ immigrant-tax-rl-agent/
 * No PII collected: visa type and country only, never name/SSN/income
 * Production reward must come from expert validation, not user ratings alone
 
-\---
 
