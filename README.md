@@ -2,7 +2,7 @@
 
 ## Demo Video
 
-[**Watch 10-minute project demonstration**](YOUR_VIDEO_LINK_HERE)
+[**https://youtu.be/6_OpbLUuSdg**]
 
 
 ## What This Project Is
